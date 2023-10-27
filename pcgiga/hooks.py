@@ -4,6 +4,21 @@ app_publisher = "PC-Giga"
 app_description = "PC-Giga Anpassungen"
 app_email = "info@pc-giga.de"
 app_license = "mit"
+
+
+doc_events = {
+    "Item": {
+        # Map naming series with selected item group before saving
+        "before_insert": "pcgiga.pc_giga.doctype.item.item_map_number_group.item_map_number_group",
+
+        # Create buying price if default buying price is given
+        "after_insert": "pcgiga.pc_giga.doctype.item.default_buying_price.create_default_buying_price"
+    }
+}
+
+# Custom fields
+fixtures = ["Custom Field"]
+
 # required_apps = []
 
 # Includes in <head>
