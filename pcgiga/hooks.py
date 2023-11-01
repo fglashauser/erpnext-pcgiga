@@ -16,6 +16,10 @@ doc_events = {
     }
 }
 
+jinja = {
+	"methods": "pcgiga.pc_giga.doctype.sales_invoice.utils.get_unique_timesheets"
+}
+
 # Custom fields
 fixtures = ["Custom Field"]
 

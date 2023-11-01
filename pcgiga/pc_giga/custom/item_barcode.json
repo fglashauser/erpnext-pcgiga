@@ -1,0 +1,32 @@
+{
+ "custom_fields": [],
+ "custom_perms": [],
+ "doctype": "Item Barcode",
+ "links": [],
+ "property_setters": [
+  {
+   "_assign": null,
+   "_comments": null,
+   "_liked_by": null,
+   "_user_tags": null,
+   "creation": "2023-10-26 19:03:23.550032",
+   "default_value": null,
+   "doc_type": "Item Barcode",
+   "docstatus": 0,
+   "doctype_or_field": "DocField",
+   "field_name": "barcode",
+   "idx": 0,
+   "is_system_generated": 1,
+   "modified": "2023-10-26 19:03:23.550032",
+   "modified_by": "florian.glashauser@pc-giga.de",
+   "module": null,
+   "name": "Item Barcode-barcode-hidden",
+   "owner": "florian.glashauser@pc-giga.de",
+   "property": "hidden",
+   "property_type": "Check",
+   "row_name": null,
+   "value": "0"
+  }
+ ],
+ "sync_on_migrate": 1
+}
