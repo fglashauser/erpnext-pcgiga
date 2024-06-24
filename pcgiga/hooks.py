@@ -13,6 +13,9 @@ doc_events = {
 
         # Create buying price if default buying price is given
         "after_insert": "pcgiga.pc_giga.doctype.item.default_buying_price.create_default_buying_price"
+    },
+    "Sales Invoice": {
+        "on_submit": "pcgiga.pc_giga.doctype.sales_invoice.sales_invoice.on_submit"
     }
 }
 
